@@ -1,0 +1,95 @@
+html {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+
+#logo {
+    width: 320px;
+    height: 320px;
+}
+
+
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #242424;
+    }
+    100% {
+      background: #626262;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #242424;
+    }
+    100% {
+      background: #3a3838;
+    }
+  }
+ 
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}  
+
+#infodiv {
+    background-color: rgb(27, 25, 25);
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #0a5aee;
+    font-size: 10px;
+    -webkit-animation: color-change-3x 2s linear infinite alternate both;
+	  animation: color-change-3x 2s linear infinite alternate both;
+}
+
+b {
+  color: #b055e6;
+}
+
+@-webkit-keyframes color-change-3x {
+  0% {
+    box-shadow: 4px 4px 4px #b055e6;
+  }
+  100% {
+    box-shadow: 4px 4px 4px #0a5aee;
+  }
+}
+@keyframes color-change-3x {
+  0% {
+    box-shadow: 4px 4px 4px #b055e6;
+  }
+  100% {
+    box-shadow: 4px 4px 4px #0a5aee;
+  }
+}
+
+body {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
